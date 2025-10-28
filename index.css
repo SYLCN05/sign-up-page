@@ -2,7 +2,38 @@
     font-family: odin;
     src: url(./Norse-Bold.otf);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
  font-family: odin;
- 
+ color: whitesmoke;
+}
+
+#odin{
+    max-width: 140px;
+    max-height: 140px;
+}
+#odin-text{
+    font-size: 80px;
+    font-weight: 300;
+}
+.left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    opacity: 75%;
+}
+.left{
+    background-image: url(./img/Leaves.avif);
+    width: 30vw;
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
 }
