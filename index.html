@@ -6,11 +6,47 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
     <div class="left">
         <div class="left-content">
             <img src="./img/odin-lined.png" alt="odin" id="odin">
             <h1 id="odin-text">ODIN</h1>
         </div>
+    </div>
+    <div class="hero">
+        <div class="hero-text">
+            <p>This is not a real online service! You know you need something like this in your life to 
+                help you relize your deepest dreams.<br>Sign up now to get started. 
+            </p>
+            <br>
+            <p>You know you want to.</p>
+        </div>
+        <div id="signupform" class="signup">
+            <h2>Let's do this!</h2>
+            <form action="" method="post">
+                <div class="signup-left">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="signup-right">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" name="phone-number" id="phone-number">
+                    <label for="password-confirm">Confirm Password</label>
+                    <input type="password" name="password-confirm" id="password-confirm" required>
+                </div>
+                <br>
+
+        </div>
+                <input id="submitbutton" type="submit" value="Create Account"></input>
+           </form>
+        <p id="account">Already have an account? <a href="">log in</a></p>
+    </div>
     </div>
 </body>
 </html>

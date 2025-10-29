@@ -7,20 +7,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
- font-family: odin;
- color: whitesmoke;
+a{
+    text-decoration: none;
+    color:#596D48;
 }
-
 #odin{
     max-width: 140px;
     max-height: 140px;
 }
 #odin-text{
+    font-family: odin;
+    color: whitesmoke;
     font-size: 80px;
-    font-weight: 300;
+    font-weight: bold;
 }
 .left-content{
+    position: relative;
+    bottom: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,10 +33,96 @@ h1{
 }
 .left{
     background-image: url(./img/Leaves.avif);
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content:center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.hero-text{
+    font-size: 25px;
+    padding:40px;
+    padding-top: 150px;
+    max-width: 740px;
+   
+}
+.container{
+    display: flex;
+   
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    background-color: white;
+    -webkit-box-shadow: 2px 5px 11px -4px #000000; 
+    box-shadow: 2px 5px 11px -4px #000000;
+}
+.signup-left>input{
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 12vw;
+    border-radius: 5px;
+    border: 1px, solid, lightgrey;
+    font-size: 18px;
+}
+.signup-left>input:invalid{
+   border:1px, solid, red;
+}
+.signup-left>input:focus{
+    outline: none;
+   border:1px, solid, blue;
+   -webkit-box-shadow: 2px 5px 11px -4px #000000; 
+   box-shadow: 2px 5px 11px -4px #000000;
+}
+.signup-right>input:invalid{
+   border:1px, solid, red;
+}
+.signup-right>input{
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 12vw;
+    border-radius: 5px;
+    border: 1px, solid, lightgrey;
+    font-size: 18px;
+}
+.signup-right>input:focus{
+   outline: none;
+   border:1px, solid, blue;
+   -webkit-box-shadow: 2px 5px 11px -4px #000000; 
+   box-shadow: 2px 5px 11px -4px #000000;
+}
+form{
+    display: flex;
+    gap: 50px;
+}
+#submitbutton{
+    background-color: #596D48;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 12vw;
+    padding: 15px;
+    -webkit-box-shadow: 2px 5px 11px -4px #000000; 
+    box-shadow: 2px 5px 11px -4px #000000;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left:40px;
+}
+#account{
+    margin-top: 40px;
+    margin-left:40px;
+    font-size: 20px;
 }
